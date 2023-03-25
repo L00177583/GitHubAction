@@ -9,9 +9,6 @@ phases:
       - apt-get update && apt-get install -y maven
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
-      - echo $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
-      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - mvn clean
   build:
     commands:

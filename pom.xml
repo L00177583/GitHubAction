@@ -16,4 +16,17 @@
 
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>atulabs.ie</groupId>
+				<artifactId>mavengithubactiondemo</artifactId>
+			</plugin>
+		</plugins>
+		<finalName>ChatGTP</finalName>
+	</build>
+
+	
+
 </project>

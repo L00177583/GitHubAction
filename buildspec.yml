@@ -17,7 +17,8 @@ phases:
   post_build:
     commands:
       - echo Build completed Succesfully
-  artifacts:
-    files:
-      - target/ChatGTP.jar
-    discard-paths: yes
+    
+artifacts:
+   files:
+     - target/ChatGTP.jar
+   discard-paths: yes
